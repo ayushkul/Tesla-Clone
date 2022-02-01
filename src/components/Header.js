@@ -15,7 +15,7 @@ function Header() {
 
   return <Container>
       <a href="/">
-        <img src="Tesla-clone/images/logo.svg" alt="logo" />
+        <img src="/Tesla-Clone/images/logo.svg" alt="logo" />
       </a>
       <Menu>
           {cars && cars.map((car, index)=>(
@@ -32,7 +32,7 @@ function Header() {
         <WrapClose>
         <CustomClose className="fas fa-times" onClick={ () => setBurgerStatus(false) }/>
         </WrapClose>
-        
+
         {cars && cars.map((car, index)=>(
             <p key={index}><a href="#">{car}</a></p>
           ))}

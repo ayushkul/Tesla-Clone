@@ -1,7 +1,7 @@
 {
   "name": "tesla",
   "version": "0.1.0",
-  "homepage": "https://priyanshkulshrestha.github.io/Tesla-Clone",
+  "homepage": "https://ayushkul.github.io/Tesla-Clone",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
